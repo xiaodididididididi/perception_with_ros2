@@ -1,0 +1,18 @@
+{
+  "package_name": "base_msgs_per",
+  "non_idl_tuples": [
+    "/home/abc/perception_with_ros2/src/base_msgs_per:srv/GlobalPathService.srv",
+    "/home/abc/perception_with_ros2/src/base_msgs_per:srv/PNCMapService.srv",
+    "/home/abc/perception_with_ros2/src/base_msgs_per:msg/PNCMap.msg",
+    "/home/abc/perception_with_ros2/src/base_msgs_per:msg/ReferlinePoint.msg",
+    "/home/abc/perception_with_ros2/src/base_msgs_per:msg/Referline.msg",
+    "/home/abc/perception_with_ros2/src/base_msgs_per:msg/LocalPathPoint.msg",
+    "/home/abc/perception_with_ros2/src/base_msgs_per:msg/LocalPath.msg",
+    "/home/abc/perception_with_ros2/src/base_msgs_per:msg/LocalSpeedsPoint.msg",
+    "/home/abc/perception_with_ros2/src/base_msgs_per:msg/LocalSpeeds.msg",
+    "/home/abc/perception_with_ros2/src/base_msgs_per:msg/LocalTrajectoryPoint.msg",
+    "/home/abc/perception_with_ros2/src/base_msgs_per:msg/LocalTrajectory.msg",
+    "/home/abc/perception_with_ros2/src/base_msgs_per:msg/ObsInfo.msg",
+    "/home/abc/perception_with_ros2/src/base_msgs_per:msg/PlotInfo.msg"
+  ]
+}

@@ -1,0 +1,272 @@
+[0.104s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.104s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71dee3e65120>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71dee3fdd7b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71dee3fdd7b0>>)
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.280s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/abc/perception_with_ros2'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_msgs_per) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_msgs_per) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_msgs_per) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_msgs_per) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_msgs_per) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_msgs_per) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_msgs_per) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_msgs_per) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_msgs_per) by extension 'ros'
+[0.295s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base_msgs_per' with type 'ros.ament_cmake' and name 'base_msgs_per'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_plot_per) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_plot_per) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_plot_per) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_plot_per) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_plot_per) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_plot_per) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_plot_per) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_plot_per) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_plot_per) by extension 'ros'
+[0.296s] DEBUG:colcon.colcon_core.package_identification:Package 'src/data_plot_per' with type 'ros.ament_python' and name 'data_plot_per'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'ros'
+[0.298s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception' with type 'ros.ament_cmake' and name 'perception'
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.326s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/abc/perception_with_ros2/install
+[0.326s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/abc/planning_with_ros2/install
+[0.328s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 321 installed packages in /opt/ros/humble
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'base_msgs_per' build argument 'cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'base_msgs_per' build argument 'cmake_target' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'base_msgs_per' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'base_msgs_per' build argument 'cmake_clean_cache' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'base_msgs_per' build argument 'cmake_clean_first' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'base_msgs_per' build argument 'cmake_force_configure' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'base_msgs_per' build argument 'ament_cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'base_msgs_per' build argument 'catkin_cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'base_msgs_per' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.370s] DEBUG:colcon.colcon_core.verb:Building package 'base_msgs_per' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abc/perception_with_ros2/build/base_msgs_per', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abc/perception_with_ros2/install/base_msgs_per', 'merge_install': False, 'path': '/home/abc/perception_with_ros2/src/base_msgs_per', 'symlink_install': False, 'test_result_base': None}
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'data_plot_per' build argument 'cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'data_plot_per' build argument 'cmake_target' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'data_plot_per' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'data_plot_per' build argument 'cmake_clean_cache' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'data_plot_per' build argument 'cmake_clean_first' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'data_plot_per' build argument 'cmake_force_configure' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'data_plot_per' build argument 'ament_cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'data_plot_per' build argument 'catkin_cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'data_plot_per' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.371s] DEBUG:colcon.colcon_core.verb:Building package 'data_plot_per' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abc/perception_with_ros2/build/data_plot_per', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abc/perception_with_ros2/install/data_plot_per', 'merge_install': False, 'path': '/home/abc/perception_with_ros2/src/data_plot_per', 'symlink_install': False, 'test_result_base': None}
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_target' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_clean_cache' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_clean_first' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_force_configure' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'ament_cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'catkin_cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.371s] DEBUG:colcon.colcon_core.verb:Building package 'perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abc/perception_with_ros2/build/perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abc/perception_with_ros2/install/perception', 'merge_install': False, 'path': '/home/abc/perception_with_ros2/src/perception', 'symlink_install': False, 'test_result_base': None}
+[0.371s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.372s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.372s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/abc/perception_with_ros2/src/base_msgs_per' with build type 'ament_cmake'
+[0.373s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/abc/perception_with_ros2/src/base_msgs_per'
+[0.374s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.374s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.374s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.378s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/abc/perception_with_ros2/src/data_plot_per' with build type 'ament_python'
+[0.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_plot_per', 'ament_prefix_path')
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abc/perception_with_ros2/install/data_plot_per/share/data_plot_per/hook/ament_prefix_path.ps1'
+[0.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abc/perception_with_ros2/install/data_plot_per/share/data_plot_per/hook/ament_prefix_path.dsv'
+[0.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abc/perception_with_ros2/install/data_plot_per/share/data_plot_per/hook/ament_prefix_path.sh'
+[0.381s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.381s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abc/perception_with_ros2/build/base_msgs_per': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble /usr/local/bin/cmake --build /home/abc/perception_with_ros2/build/base_msgs_per -- -j12 -l12
+[0.669s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/abc/perception_with_ros2/src/data_plot_per'
+[0.669s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.669s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abc/perception_with_ros2/build/base_msgs_per' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble /usr/local/bin/cmake --build /home/abc/perception_with_ros2/build/base_msgs_per -- -j12 -l12
+[0.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abc/perception_with_ros2/build/base_msgs_per': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble /usr/local/bin/cmake --install /home/abc/perception_with_ros2/build/base_msgs_per
+[0.785s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_msgs_per)
+[0.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abc/perception_with_ros2/build/base_msgs_per' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble /usr/local/bin/cmake --install /home/abc/perception_with_ros2/build/base_msgs_per
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/base_msgs_per' for CMake module files
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/base_msgs_per' for CMake config files
+[0.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_msgs_per', 'cmake_prefix_path')
+[0.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/hook/cmake_prefix_path.ps1'
+[0.790s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/hook/cmake_prefix_path.dsv'
+[0.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/hook/cmake_prefix_path.sh'
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/base_msgs_per/lib'
+[0.791s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_msgs_per', 'ld_library_path_lib')
+[0.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/hook/ld_library_path_lib.ps1'
+[0.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/hook/ld_library_path_lib.dsv'
+[0.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/hook/ld_library_path_lib.sh'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/base_msgs_per/bin'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/base_msgs_per/lib/pkgconfig/base_msgs_per.pc'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/base_msgs_per/lib/python3.10/site-packages'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/base_msgs_per/bin'
+[0.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/package.ps1'
+[0.795s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/package.dsv'
+[0.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/package.sh'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/package.bash'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/package.zsh'
+[0.797s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abc/perception_with_ros2/install/base_msgs_per/share/colcon-core/packages/base_msgs_per)
+[0.798s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_msgs_per)
+[0.798s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/base_msgs_per' for CMake module files
+[0.798s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/base_msgs_per' for CMake config files
+[0.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_msgs_per', 'cmake_prefix_path')
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/hook/cmake_prefix_path.ps1'
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/hook/cmake_prefix_path.dsv'
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/hook/cmake_prefix_path.sh'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/base_msgs_per/lib'
+[0.800s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_msgs_per', 'ld_library_path_lib')
+[0.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/hook/ld_library_path_lib.ps1'
+[0.801s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/hook/ld_library_path_lib.dsv'
+[0.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/hook/ld_library_path_lib.sh'
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/base_msgs_per/bin'
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/base_msgs_per/lib/pkgconfig/base_msgs_per.pc'
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/base_msgs_per/lib/python3.10/site-packages'
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/base_msgs_per/bin'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/package.ps1'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/package.dsv'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/package.sh'
+[0.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/package.bash'
+[0.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/package.zsh'
+[0.804s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abc/perception_with_ros2/install/base_msgs_per/share/colcon-core/packages/base_msgs_per)
+[0.805s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/abc/perception_with_ros2/src/perception' with build type 'ament_cmake'
+[0.805s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/abc/perception_with_ros2/src/perception'
+[0.805s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.805s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abc/perception_with_ros2/build/perception': CMAKE_PREFIX_PATH=/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/perception_with_ros2/install/perception:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/base_msgs:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/perception_with_ros2/install/base_msgs_per/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/abc/perception_with_ros2/build/perception -- -j12 -l12
+[0.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abc/perception_with_ros2/build/perception' returned '0': CMAKE_PREFIX_PATH=/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/perception_with_ros2/install/perception:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/base_msgs:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/perception_with_ros2/install/base_msgs_per/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/abc/perception_with_ros2/build/perception -- -j12 -l12
+[0.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abc/perception_with_ros2/build/perception': CMAKE_PREFIX_PATH=/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/perception_with_ros2/install/perception:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/base_msgs:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/perception_with_ros2/install/base_msgs_per/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --install /home/abc/perception_with_ros2/build/perception
+[0.969s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perception)
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/perception' for CMake module files
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/perception' for CMake config files
+[0.972s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception', 'cmake_prefix_path')
+[0.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abc/perception_with_ros2/install/perception/share/perception/hook/cmake_prefix_path.ps1'
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abc/perception_with_ros2/install/perception/share/perception/hook/cmake_prefix_path.dsv'
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abc/perception_with_ros2/install/perception/share/perception/hook/cmake_prefix_path.sh'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/perception/lib'
+[0.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception', 'ld_library_path_lib')
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abc/perception_with_ros2/install/perception/share/perception/hook/ld_library_path_lib.ps1'
+[0.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abc/perception_with_ros2/build/perception' returned '0': CMAKE_PREFIX_PATH=/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/perception_with_ros2/install/perception:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/base_msgs:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/perception_with_ros2/install/base_msgs_per/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --install /home/abc/perception_with_ros2/build/perception
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abc/perception_with_ros2/install/perception/share/perception/hook/ld_library_path_lib.dsv'
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abc/perception_with_ros2/install/perception/share/perception/hook/ld_library_path_lib.sh'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/perception/bin'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/perception/lib/pkgconfig/perception.pc'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/perception/lib/python3.10/site-packages'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/perception/bin'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/abc/perception_with_ros2/install/perception/share/perception/package.ps1'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abc/perception_with_ros2/install/perception/share/perception/package.dsv'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/abc/perception_with_ros2/install/perception/share/perception/package.sh'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/abc/perception_with_ros2/install/perception/share/perception/package.bash'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/abc/perception_with_ros2/install/perception/share/perception/package.zsh'
+[0.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abc/perception_with_ros2/install/perception/share/colcon-core/packages/perception)
+[0.980s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perception)
+[0.980s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/perception' for CMake module files
+[0.981s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/perception' for CMake config files
+[0.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception', 'cmake_prefix_path')
+[0.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abc/perception_with_ros2/install/perception/share/perception/hook/cmake_prefix_path.ps1'
+[0.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abc/perception_with_ros2/install/perception/share/perception/hook/cmake_prefix_path.dsv'
+[0.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abc/perception_with_ros2/install/perception/share/perception/hook/cmake_prefix_path.sh'
+[0.983s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/perception/lib'
+[0.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception', 'ld_library_path_lib')
+[0.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abc/perception_with_ros2/install/perception/share/perception/hook/ld_library_path_lib.ps1'
+[0.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abc/perception_with_ros2/install/perception/share/perception/hook/ld_library_path_lib.dsv'
+[0.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abc/perception_with_ros2/install/perception/share/perception/hook/ld_library_path_lib.sh'
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/perception/bin'
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/perception/lib/pkgconfig/perception.pc'
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/perception/lib/python3.10/site-packages'
+[0.985s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/perception/bin'
+[0.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/abc/perception_with_ros2/install/perception/share/perception/package.ps1'
+[0.986s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abc/perception_with_ros2/install/perception/share/perception/package.dsv'
+[0.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/abc/perception_with_ros2/install/perception/share/perception/package.sh'
+[0.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/abc/perception_with_ros2/install/perception/share/perception/package.bash'
+[0.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/abc/perception_with_ros2/install/perception/share/perception/package.zsh'
+[0.988s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abc/perception_with_ros2/install/perception/share/colcon-core/packages/perception)
+[1.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abc/perception_with_ros2/src/data_plot_per': PYTHONPATH=/home/abc/perception_with_ros2/build/data_plot_per/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abc/perception_with_ros2/install/data_plot_per/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_plot_per build --build-base /home/abc/perception_with_ros2/build/data_plot_per/build install --record /home/abc/perception_with_ros2/build/data_plot_per/install.log --single-version-externally-managed install_data
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/data_plot_per' for CMake module files
+[1.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abc/perception_with_ros2/src/data_plot_per' returned '0': PYTHONPATH=/home/abc/perception_with_ros2/build/data_plot_per/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abc/perception_with_ros2/install/data_plot_per/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_plot_per build --build-base /home/abc/perception_with_ros2/build/data_plot_per/build install --record /home/abc/perception_with_ros2/build/data_plot_per/install.log --single-version-externally-managed install_data
+[1.321s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/data_plot_per' for CMake config files
+[1.322s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/data_plot_per/lib'
+[1.322s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/data_plot_per/bin'
+[1.322s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/data_plot_per/lib/pkgconfig/data_plot_per.pc'
+[1.322s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/data_plot_per/lib/python3.10/site-packages'
+[1.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_plot_per', 'pythonpath')
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abc/perception_with_ros2/install/data_plot_per/share/data_plot_per/hook/pythonpath.ps1'
+[1.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abc/perception_with_ros2/install/data_plot_per/share/data_plot_per/hook/pythonpath.dsv'
+[1.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abc/perception_with_ros2/install/data_plot_per/share/data_plot_per/hook/pythonpath.sh'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/abc/perception_with_ros2/install/data_plot_per/bin'
+[1.324s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(data_plot_per)
+[1.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/abc/perception_with_ros2/install/data_plot_per/share/data_plot_per/package.ps1'
+[1.324s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abc/perception_with_ros2/install/data_plot_per/share/data_plot_per/package.dsv'
+[1.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/abc/perception_with_ros2/install/data_plot_per/share/data_plot_per/package.sh'
+[1.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/abc/perception_with_ros2/install/data_plot_per/share/data_plot_per/package.bash'
+[1.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/abc/perception_with_ros2/install/data_plot_per/share/data_plot_per/package.zsh'
+[1.326s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abc/perception_with_ros2/install/data_plot_per/share/colcon-core/packages/data_plot_per)
+[1.326s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.326s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.326s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.327s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.331s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.331s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.331s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.339s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.339s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abc/perception_with_ros2/install/local_setup.ps1'
+[1.340s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abc/perception_with_ros2/install/_local_setup_util_ps1.py'
+[1.342s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abc/perception_with_ros2/install/setup.ps1'
+[1.343s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abc/perception_with_ros2/install/local_setup.sh'
+[1.343s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abc/perception_with_ros2/install/_local_setup_util_sh.py'
+[1.344s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abc/perception_with_ros2/install/setup.sh'
+[1.345s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abc/perception_with_ros2/install/local_setup.bash'
+[1.346s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abc/perception_with_ros2/install/setup.bash'
+[1.347s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abc/perception_with_ros2/install/local_setup.zsh'
+[1.347s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abc/perception_with_ros2/install/setup.zsh'

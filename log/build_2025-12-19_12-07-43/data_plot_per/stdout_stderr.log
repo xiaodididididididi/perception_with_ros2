@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/data_plot_per/data_plot_per.egg-info/PKG-INFO
+writing dependency_links to ../../build/data_plot_per/data_plot_per.egg-info/dependency_links.txt
+writing entry points to ../../build/data_plot_per/data_plot_per.egg-info/entry_points.txt
+writing requirements to ../../build/data_plot_per/data_plot_per.egg-info/requires.txt
+writing top-level names to ../../build/data_plot_per/data_plot_per.egg-info/top_level.txt
+reading manifest file '../../build/data_plot_per/data_plot_per.egg-info/SOURCES.txt'
+writing manifest file '../../build/data_plot_per/data_plot_per.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/abc/perception_with_ros2/install/data_plot_per/lib/python3.10/site-packages/data_plot_per-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/data_plot_per/data_plot_per.egg-info to /home/abc/perception_with_ros2/install/data_plot_per/lib/python3.10/site-packages/data_plot_per-0.0.0-py3.10.egg-info
+running install_scripts
+Installing data_plot_per script to /home/abc/perception_with_ros2/install/data_plot_per/lib/data_plot_per
+writing list of installed files to '/home/abc/perception_with_ros2/build/data_plot_per/install.log'

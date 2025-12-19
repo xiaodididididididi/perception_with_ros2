@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:65 (add_subdirectory):
+  add_subdirectory given source "src/perception_process" which is not an
+  existing directory.
+
+[0m

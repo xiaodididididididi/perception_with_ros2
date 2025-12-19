@@ -1,0 +1,3 @@
+[console_scripts]
+data_plot_per = data_plot_per.data_plot_per:main
+

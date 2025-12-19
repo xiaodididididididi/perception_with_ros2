@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "base_msgs_per__py",
+		"source" : "/home/abc/perception_with_ros2/build/base_msgs_per/base_msgs_per__py"
+	}
+}

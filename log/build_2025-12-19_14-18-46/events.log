@@ -1,0 +1,885 @@
+[0.000000] (-) TimerEvent: {}
+[0.000378] (base_msgs_per) JobQueued: {'identifier': 'base_msgs_per', 'dependencies': OrderedDict()}
+[0.000413] (data_plot_per) JobQueued: {'identifier': 'data_plot_per', 'dependencies': OrderedDict()}
+[0.000434] (perception) JobQueued: {'identifier': 'perception', 'dependencies': OrderedDict([('base_msgs_per', '/home/abc/perception_with_ros2/install/base_msgs_per')])}
+[0.000456] (base_msgs_per) JobStarted: {'identifier': 'base_msgs_per'}
+[0.006380] (data_plot_per) JobStarted: {'identifier': 'data_plot_per'}
+[0.013169] (base_msgs_per) JobProgress: {'identifier': 'base_msgs_per', 'progress': 'cmake'}
+[0.014037] (base_msgs_per) JobProgress: {'identifier': 'base_msgs_per', 'progress': 'build'}
+[0.015061] (base_msgs_per) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/abc/perception_with_ros2/build/base_msgs_per', '--', '-j12', '-l12'], 'cwd': '/home/abc/perception_with_ros2/build/base_msgs_per', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'abc'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/base_msgs_per/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1149'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1608'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '201579'), ('COLCON_PREFIX_PATH', '/home/abc/perception_with_ros2/install:/home/abc/planning_with_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'abc'), ('JOURNAL_STREAM', '8:909'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/abc/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/abc/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/abc-G3-3500:@/tmp/.ICE-unix/1581,unix/abc-G3-3500:/tmp/.ICE-unix/1581'), ('INVOCATION_ID', 'c5577e6a91294bed97fcbd6a37e1442b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0370d1c5f2548263.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/abc/.config/Code/User/workspaceStorage/28936fba8b94055b776ffa577577e387/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS2_PERCEPTION_COURSE_INSTALL', '/home/abc/perception_with_ros2/install'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5e4b9a72ca.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/abc/perception_with_ros2/install/perception:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/data_plot:/home/abc/planning_with_ros2/install/base_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abc/perception_with_ros2/build/base_msgs_per'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abc/perception_with_ros2/install/data_plot_per/lib/python3.10/site-packages:/home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages:/home/abc/planning_with_ros2/install/data_plot/lib/python3.10/site-packages:/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/perception_with_ros2/install/perception:/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/base_msgs:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble')]), 'shell': False}
+[0.044378] (base_msgs_per) StdoutLine: {'line': b'[  0%] Built target base_msgs_per__cpp\n'}
+[0.047051] (base_msgs_per) StdoutLine: {'line': b'[ 12%] Built target base_msgs_per__rosidl_generator_c\n'}
+[0.047638] (base_msgs_per) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_base_msgs_per\n'}
+[0.063255] (base_msgs_per) StdoutLine: {'line': b'[ 35%] Built target base_msgs_per__rosidl_typesupport_cpp\n'}
+[0.063513] (base_msgs_per) StdoutLine: {'line': b'[ 36%] Built target base_msgs_per__rosidl_typesupport_c\n'}
+[0.064760] (base_msgs_per) StdoutLine: {'line': b'[ 51%] Built target base_msgs_per__rosidl_typesupport_introspection_cpp\n'}
+[0.065056] (base_msgs_per) StdoutLine: {'line': b'[ 64%] Built target base_msgs_per__rosidl_typesupport_fastrtps_cpp\n'}
+[0.065274] (base_msgs_per) StdoutLine: {'line': b'[ 72%] Built target base_msgs_per__rosidl_typesupport_introspection_c\n'}
+[0.067097] (base_msgs_per) StdoutLine: {'line': b'[ 84%] Built target base_msgs_per__rosidl_typesupport_fastrtps_c\n'}
+[0.074647] (base_msgs_per) StdoutLine: {'line': b'[ 84%] Built target base_msgs_per\n'}
+[0.083362] (base_msgs_per) StdoutLine: {'line': b'[ 85%] Built target base_msgs_per__py\n'}
+[0.096930] (base_msgs_per) StdoutLine: {'line': b'[ 96%] Built target base_msgs_per__rosidl_generator_py\n'}
+[0.099774] (-) TimerEvent: {}
+[0.106157] (base_msgs_per) StdoutLine: {'line': b'[ 98%] Built target base_msgs_per__rosidl_typesupport_introspection_c__pyext\n'}
+[0.107326] (base_msgs_per) StdoutLine: {'line': b'[ 99%] Built target base_msgs_per__rosidl_typesupport_c__pyext\n'}
+[0.107507] (base_msgs_per) StdoutLine: {'line': b'[100%] Built target base_msgs_per__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.199862] (-) TimerEvent: {}
+[0.300187] (-) TimerEvent: {}
+[0.324875] (base_msgs_per) StdoutLine: {'line': b'running egg_info\n'}
+[0.325574] (base_msgs_per) StdoutLine: {'line': b'writing base_msgs_per.egg-info/PKG-INFO\n'}
+[0.325837] (base_msgs_per) StdoutLine: {'line': b'writing dependency_links to base_msgs_per.egg-info/dependency_links.txt\n'}
+[0.326077] (base_msgs_per) StdoutLine: {'line': b'writing top-level names to base_msgs_per.egg-info/top_level.txt\n'}
+[0.328935] (base_msgs_per) StdoutLine: {'line': b"reading manifest file 'base_msgs_per.egg-info/SOURCES.txt'\n"}
+[0.329973] (base_msgs_per) StdoutLine: {'line': b"writing manifest file 'base_msgs_per.egg-info/SOURCES.txt'\n"}
+[0.348859] (base_msgs_per) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_base_msgs_per_egg\n'}
+[0.353126] (base_msgs_per) CommandEnded: {'returncode': 0}
+[0.354069] (base_msgs_per) JobProgress: {'identifier': 'base_msgs_per', 'progress': 'install'}
+[0.356702] (base_msgs_per) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/abc/perception_with_ros2/build/base_msgs_per'], 'cwd': '/home/abc/perception_with_ros2/build/base_msgs_per', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'abc'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/base_msgs_per/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1149'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1608'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '201579'), ('COLCON_PREFIX_PATH', '/home/abc/perception_with_ros2/install:/home/abc/planning_with_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'abc'), ('JOURNAL_STREAM', '8:909'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/abc/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/abc/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/abc-G3-3500:@/tmp/.ICE-unix/1581,unix/abc-G3-3500:/tmp/.ICE-unix/1581'), ('INVOCATION_ID', 'c5577e6a91294bed97fcbd6a37e1442b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0370d1c5f2548263.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/abc/.config/Code/User/workspaceStorage/28936fba8b94055b776ffa577577e387/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS2_PERCEPTION_COURSE_INSTALL', '/home/abc/perception_with_ros2/install'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5e4b9a72ca.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/abc/perception_with_ros2/install/perception:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/data_plot:/home/abc/planning_with_ros2/install/base_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abc/perception_with_ros2/build/base_msgs_per'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abc/perception_with_ros2/install/data_plot_per/lib/python3.10/site-packages:/home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages:/home/abc/planning_with_ros2/install/data_plot/lib/python3.10/site-packages:/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/perception_with_ros2/install/perception:/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/base_msgs:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble')]), 'shell': False}
+[0.359552] (base_msgs_per) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.359735] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/ament_index/resource_index/rosidl_interfaces/base_msgs_per\n'}
+[0.359878] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per\n'}
+[0.360086] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg\n'}
+[0.360190] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/pnc_map.h\n'}
+[0.360288] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/local_trajectory_point.h\n'}
+[0.360385] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/plot_info.h\n'}
+[0.360480] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.360756] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/local_path.h\n'}
+[0.360888] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail\n'}
+[0.360988] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/obs_info__type_support.h\n'}
+[0.361085] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds__functions.c\n'}
+[0.361179] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds_point__struct.h\n'}
+[0.361296] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline_point__type_support.h\n'}
+[0.361395] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/obs_info__struct.h\n'}
+[0.361615] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline__struct.h\n'}
+[0.361714] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds__functions.h\n'}
+[0.361809] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path_point__functions.h\n'}
+[0.361904] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/pnc_map__struct.h\n'}
+[0.362000] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/plot_info__struct.h\n'}
+[0.362095] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path_point__struct.h\n'}
+[0.362189] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path__struct.h\n'}
+[0.362284] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/obs_info__functions.h\n'}
+[0.362508] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/obs_info__functions.c\n'}
+[0.362659] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds__struct.h\n'}
+[0.362788] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline__functions.h\n'}
+[0.362884] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory__type_support.h\n'}
+[0.362978] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory__functions.h\n'}
+[0.363071] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path_point__type_support.h\n'}
+[0.363166] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path_point__functions.c\n'}
+[0.363259] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline__type_support.h\n'}
+[0.363351] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory_point__functions.c\n'}
+[0.363445] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory_point__functions.h\n'}
+[0.363546] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path__functions.h\n'}
+[0.363678] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/pnc_map__functions.c\n'}
+[0.363773] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline__functions.c\n'}
+[0.364019] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline_point__struct.h\n'}
+[0.364117] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory__struct.h\n'}
+[0.364213] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds_point__type_support.h\n'}
+[0.364306] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds_point__functions.h\n'}
+[0.364400] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory_point__struct.h\n'}
+[0.364520] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path__functions.c\n'}
+[0.364887] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/plot_info__functions.c\n'}
+[0.364989] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory__functions.c\n'}
+[0.365085] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds__type_support.h\n'}
+[0.365181] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/plot_info__type_support.h\n'}
+[0.365277] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline_point__functions.c\n'}
+[0.365371] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path__type_support.h\n'}
+[0.365466] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/plot_info__functions.h\n'}
+[0.365599] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/pnc_map__type_support.h\n'}
+[0.365902] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/pnc_map__functions.h\n'}
+[0.366000] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory_point__type_support.h\n'}
+[0.366160] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds_point__functions.c\n'}
+[0.366254] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline_point__functions.h\n'}
+[0.366348] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/referline_point.h\n'}
+[0.366443] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/obs_info.h\n'}
+[0.366544] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/referline.h\n'}
+[0.366765] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/local_speeds_point.h\n'}
+[0.366864] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/local_speeds.h\n'}
+[0.366961] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/local_trajectory.h\n'}
+[0.367056] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/local_path_point.h\n'}
+[0.367149] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv\n'}
+[0.367244] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail\n'}
+[0.367337] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/global_path_service__functions.h\n'}
+[0.367430] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/pnc_map_service__struct.h\n'}
+[0.367530] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/pnc_map_service__functions.c\n'}
+[0.367660] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/global_path_service__type_support.h\n'}
+[0.367754] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/global_path_service__struct.h\n'}
+[0.367847] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/pnc_map_service__type_support.h\n'}
+[0.368269] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/global_path_service__functions.c\n'}
+[0.368370] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/pnc_map_service__functions.h\n'}
+[0.368466] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/pnc_map_service.h\n'}
+[0.368610] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/global_path_service.h\n'}
+[0.368797] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/environment/library_path.sh\n'}
+[0.368894] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/environment/library_path.dsv\n'}
+[0.368990] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/lib/libbase_msgs_per__rosidl_generator_c.so\n'}
+[0.369084] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per\n'}
+[0.369177] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg\n'}
+[0.369271] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.369366] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail\n'}
+[0.369488] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/obs_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.369600] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory_point__rosidl_typesupport_fastrtps_c.h\n'}
+[0.369866] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds__rosidl_typesupport_fastrtps_c.h\n'}
+[0.369961] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds_point__rosidl_typesupport_fastrtps_c.h\n'}
+[0.370052] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/plot_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.370142] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory__rosidl_typesupport_fastrtps_c.h\n'}
+[0.370232] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path_point__rosidl_typesupport_fastrtps_c.h\n'}
+[0.370323] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline_point__rosidl_typesupport_fastrtps_c.h\n'}
+[0.370414] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/pnc_map__rosidl_typesupport_fastrtps_c.h\n'}
+[0.370504] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline__rosidl_typesupport_fastrtps_c.h\n'}
+[0.370606] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path__rosidl_typesupport_fastrtps_c.h\n'}
+[0.370699] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv\n'}
+[0.370788] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail\n'}
+[0.370878] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/pnc_map_service__rosidl_typesupport_fastrtps_c.h\n'}
+[0.370968] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/global_path_service__rosidl_typesupport_fastrtps_c.h\n'}
+[0.371057] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/lib/libbase_msgs_per__rosidl_typesupport_fastrtps_c.so\n'}
+[0.371153] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per\n'}
+[0.371244] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg\n'}
+[0.371332] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.371421] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail\n'}
+[0.371516] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory__type_support.c\n'}
+[0.371619] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path_point__rosidl_typesupport_introspection_c.h\n'}
+[0.371712] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds_point__type_support.c\n'}
+[0.371802] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline__type_support.c\n'}
+[0.371892] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/pnc_map__rosidl_typesupport_introspection_c.h\n'}
+[0.371982] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds_point__rosidl_typesupport_introspection_c.h\n'}
+[0.372071] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory__rosidl_typesupport_introspection_c.h\n'}
+[0.372161] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds__type_support.c\n'}
+[0.372251] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline_point__type_support.c\n'}
+[0.372341] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline_point__rosidl_typesupport_introspection_c.h\n'}
+[0.372439] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/pnc_map__type_support.c\n'}
+[0.372533] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline__rosidl_typesupport_introspection_c.h\n'}
+[0.372633] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory_point__rosidl_typesupport_introspection_c.h\n'}
+[0.372723] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/obs_info__rosidl_typesupport_introspection_c.h\n'}
+[0.372812] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/obs_info__type_support.c\n'}
+[0.372902] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path__type_support.c\n'}
+[0.372993] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path_point__type_support.c\n'}
+[0.373082] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory_point__type_support.c\n'}
+[0.373172] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/plot_info__type_support.c\n'}
+[0.373260] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds__rosidl_typesupport_introspection_c.h\n'}
+[0.373356] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path__rosidl_typesupport_introspection_c.h\n'}
+[0.373444] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/plot_info__rosidl_typesupport_introspection_c.h\n'}
+[0.373545] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv\n'}
+[0.373645] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail\n'}
+[0.373735] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/global_path_service__type_support.c\n'}
+[0.373825] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/global_path_service__rosidl_typesupport_introspection_c.h\n'}
+[0.373914] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/pnc_map_service__rosidl_typesupport_introspection_c.h\n'}
+[0.374002] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/pnc_map_service__type_support.c\n'}
+[0.374090] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/lib/libbase_msgs_per__rosidl_typesupport_introspection_c.so\n'}
+[0.374179] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/lib/libbase_msgs_per__rosidl_typesupport_c.so\n'}
+[0.374272] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per\n'}
+[0.374361] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg\n'}
+[0.374449] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/local_speeds.hpp\n'}
+[0.374543] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/local_path_point.hpp\n'}
+[0.374641] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail\n'}
+[0.374729] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/pnc_map__traits.hpp\n'}
+[0.374818] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory_point__type_support.hpp\n'}
+[0.374907] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/obs_info__builder.hpp\n'}
+[0.374997] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline_point__type_support.hpp\n'}
+[0.375095] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path__struct.hpp\n'}
+[0.375186] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/plot_info__struct.hpp\n'}
+[0.375282] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/pnc_map__builder.hpp\n'}
+[0.375372] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/plot_info__builder.hpp\n'}
+[0.375460] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline__traits.hpp\n'}
+[0.375561] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds_point__struct.hpp\n'}
+[0.375657] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory__type_support.hpp\n'}
+[0.375749] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path_point__struct.hpp\n'}
+[0.375838] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds__builder.hpp\n'}
+[0.375928] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path__traits.hpp\n'}
+[0.376023] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory__struct.hpp\n'}
+[0.376116] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds_point__traits.hpp\n'}
+[0.376205] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds_point__type_support.hpp\n'}
+[0.376295] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path__builder.hpp\n'}
+[0.376383] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/plot_info__type_support.hpp\n'}
+[0.376471] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline_point__builder.hpp\n'}
+[0.376569] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/obs_info__type_support.hpp\n'}
+[0.376663] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline__builder.hpp\n'}
+[0.376753] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/pnc_map__struct.hpp\n'}
+[0.376841] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path_point__traits.hpp\n'}
+[0.376930] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds__type_support.hpp\n'}
+[0.377018] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/obs_info__traits.hpp\n'}
+[0.377107] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory__builder.hpp\n'}
+[0.377203] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory__traits.hpp\n'}
+[0.377292] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline__struct.hpp\n'}
+[0.377381] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline__type_support.hpp\n'}
+[0.377469] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline_point__struct.hpp\n'}
+[0.377569] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/plot_info__traits.hpp\n'}
+[0.377671] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory_point__builder.hpp\n'}
+[0.377762] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds__traits.hpp\n'}
+[0.377851] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory_point__traits.hpp\n'}
+[0.377938] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path__type_support.hpp\n'}
+[0.378026] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path_point__type_support.hpp\n'}
+[0.378113] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory_point__struct.hpp\n'}
+[0.378201] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/obs_info__struct.hpp\n'}
+[0.378291] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline_point__traits.hpp\n'}
+[0.378380] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds_point__builder.hpp\n'}
+[0.378469] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/pnc_map__type_support.hpp\n'}
+[0.378571] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds__struct.hpp\n'}
+[0.378669] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path_point__builder.hpp\n'}
+[0.378757] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/local_path.hpp\n'}
+[0.378846] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.378934] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/referline.hpp\n'}
+[0.379023] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/local_trajectory_point.hpp\n'}
+[0.379118] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/obs_info.hpp\n'}
+[0.379207] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/plot_info.hpp\n'}
+[0.379296] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/local_trajectory.hpp\n'}
+[0.379385] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/local_speeds_point.hpp\n'}
+[0.379475] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/pnc_map.hpp\n'}
+[0.379574] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/referline_point.hpp\n'}
+[0.379667] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv\n'}
+[0.379756] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/pnc_map_service.hpp\n'}
+[0.379847] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail\n'}
+[0.379935] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/global_path_service__builder.hpp\n'}
+[0.380024] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/pnc_map_service__traits.hpp\n'}
+[0.380116] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/pnc_map_service__type_support.hpp\n'}
+[0.380205] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/global_path_service__struct.hpp\n'}
+[0.380293] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/pnc_map_service__builder.hpp\n'}
+[0.380393] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/global_path_service__type_support.hpp\n'}
+[0.380483] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/global_path_service__traits.hpp\n'}
+[0.380585] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/pnc_map_service__struct.hpp\n'}
+[0.380677] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/global_path_service.hpp\n'}
+[0.380766] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per\n'}
+[0.380856] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg\n'}
+[0.380944] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail\n'}
+[0.381035] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.381133] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.381223] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.381313] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.381403] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/obs_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.381492] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.381595] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.381688] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/pnc_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.381776] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.381865] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/dds_fastrtps\n'}
+[0.381954] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.382044] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/plot_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.382133] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.382221] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv\n'}
+[0.382311] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail\n'}
+[0.382401] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/global_path_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.382491] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/pnc_map_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.382592] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/dds_fastrtps\n'}
+[0.382685] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/lib/libbase_msgs_per__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.382774] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per\n'}
+[0.382863] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg\n'}
+[0.382958] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail\n'}
+[0.383057] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory__type_support.cpp\n'}
+[0.383146] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds_point__type_support.cpp\n'}
+[0.383236] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.383325] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/pnc_map__type_support.cpp\n'}
+[0.383412] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline__type_support.cpp\n'}
+[0.383505] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/obs_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.383608] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.383698] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds__type_support.cpp\n'}
+[0.383788] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.383879] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/plot_info__type_support.cpp\n'}
+[0.383969] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.384058] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path_point__type_support.cpp\n'}
+[0.384147] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/pnc_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.384237] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/plot_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.384329] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.384419] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline_point__type_support.cpp\n'}
+[0.384511] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/obs_info__type_support.cpp\n'}
+[0.384613] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/referline_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.384706] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_speeds__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.384805] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path__type_support.cpp\n'}
+[0.384895] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_trajectory_point__type_support.cpp\n'}
+[0.384986] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/msg/detail/local_path_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.385075] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv\n'}
+[0.385162] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail\n'}
+[0.385252] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/pnc_map_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.385341] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/pnc_map_service__type_support.cpp\n'}
+[0.385437] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/global_path_service__type_support.cpp\n'}
+[0.385533] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/include/base_msgs_per/base_msgs_per/srv/detail/global_path_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.385633] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/lib/libbase_msgs_per__rosidl_typesupport_introspection_cpp.so\n'}
+[0.385725] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/lib/libbase_msgs_per__rosidl_typesupport_cpp.so\n'}
+[0.385815] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/environment/pythonpath.sh\n'}
+[0.385910] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/environment/pythonpath.dsv\n'}
+[0.386003] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per-0.0.0-py3.10.egg-info\n'}
+[0.386093] (base_msgs_per) StdoutLine: {'line': b'-- Installing: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.386183] (base_msgs_per) StdoutLine: {'line': b'-- Installing: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.386271] (base_msgs_per) StdoutLine: {'line': b'-- Installing: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.386360] (base_msgs_per) StdoutLine: {'line': b'-- Installing: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.386449] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per\n'}
+[0.386543] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/_base_msgs_per_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.386647] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg\n'}
+[0.386737] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/_obs_info.py\n'}
+[0.386827] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/_referline_s.c\n'}
+[0.386916] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/_local_path_s.c\n'}
+[0.387006] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/_local_speeds.py\n'}
+[0.387096] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/_local_path_point_s.c\n'}
+[0.387187] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/_referline_point_s.c\n'}
+[0.387276] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/_local_path.py\n'}
+[0.387366] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/_local_trajectory_point.py\n'}
+[0.387459] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/_local_speeds_s.c\n'}
+[0.387556] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/_referline.py\n'}
+[0.387653] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/_local_speeds_point.py\n'}
+[0.387743] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/_pnc_map.py\n'}
+[0.387830] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/__init__.py\n'}
+[0.387920] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/_plot_info_s.c\n'}
+[0.388009] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/_local_trajectory_s.c\n'}
+[0.388098] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/_referline_point.py\n'}
+[0.388197] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/_local_speeds_point_s.c\n'}
+[0.388287] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/_local_path_point.py\n'}
+[0.388382] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/_pnc_map_s.c\n'}
+[0.388472] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/_local_trajectory.py\n'}
+[0.388573] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/_local_trajectory_point_s.c\n'}
+[0.388673] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/_plot_info.py\n'}
+[0.388763] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg/_obs_info_s.c\n'}
+[0.388853] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/_base_msgs_per_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.388948] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/_base_msgs_per_s.ep.rosidl_typesupport_c.c\n'}
+[0.389039] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/__init__.py\n'}
+[0.389130] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/base_msgs_per_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.389221] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/base_msgs_per_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.389312] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/base_msgs_per_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.389404] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/libbase_msgs_per__rosidl_generator_py.so\n'}
+[0.389495] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/srv\n'}
+[0.389601] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/srv/_pnc_map_service.py\n'}
+[0.389695] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/srv/_global_path_service_s.c\n'}
+[0.389785] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/srv/__init__.py\n'}
+[0.389875] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/srv/_global_path_service.py\n'}
+[0.389967] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/srv/_pnc_map_service_s.c\n'}
+[0.400286] (-) TimerEvent: {}
+[0.401036] (base_msgs_per) StdoutLine: {'line': b"Listing '/home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per'...\n"}
+[0.401200] (base_msgs_per) StdoutLine: {'line': b"Listing '/home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/msg'...\n"}
+[0.401301] (base_msgs_per) StdoutLine: {'line': b"Listing '/home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/srv'...\n"}
+[0.405756] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/base_msgs_per_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.406177] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/base_msgs_per_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.406546] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages/base_msgs_per/base_msgs_per_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.406950] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/lib/libbase_msgs_per__rosidl_generator_py.so\n'}
+[0.407165] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/srv/GlobalPathService.idl\n'}
+[0.407320] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/srv/PNCMapService.idl\n'}
+[0.407461] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/msg/PNCMap.idl\n'}
+[0.407611] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/msg/ReferlinePoint.idl\n'}
+[0.407751] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/msg/Referline.idl\n'}
+[0.407913] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/msg/LocalPathPoint.idl\n'}
+[0.408101] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/msg/LocalPath.idl\n'}
+[0.408209] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/msg/LocalSpeedsPoint.idl\n'}
+[0.408311] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/msg/LocalSpeeds.idl\n'}
+[0.408405] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/msg/LocalTrajectoryPoint.idl\n'}
+[0.408503] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/msg/LocalTrajectory.idl\n'}
+[0.408609] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/msg/ObsInfo.idl\n'}
+[0.408702] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/msg/PlotInfo.idl\n'}
+[0.408793] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/srv/GlobalPathService.srv\n'}
+[0.408988] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/srv/GlobalPathService_Request.msg\n'}
+[0.409179] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/srv/GlobalPathService_Response.msg\n'}
+[0.409338] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/srv/PNCMapService.srv\n'}
+[0.409493] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/srv/PNCMapService_Request.msg\n'}
+[0.409749] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/srv/PNCMapService_Response.msg\n'}
+[0.409956] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/msg/PNCMap.msg\n'}
+[0.410156] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/msg/ReferlinePoint.msg\n'}
+[0.410354] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/msg/Referline.msg\n'}
+[0.410454] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/msg/LocalPathPoint.msg\n'}
+[0.410551] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/msg/LocalPath.msg\n'}
+[0.410689] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/msg/LocalSpeedsPoint.msg\n'}
+[0.410785] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/msg/LocalSpeeds.msg\n'}
+[0.410883] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/msg/LocalTrajectoryPoint.msg\n'}
+[0.410982] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/msg/LocalTrajectory.msg\n'}
+[0.411076] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/msg/ObsInfo.msg\n'}
+[0.411169] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/msg/PlotInfo.msg\n'}
+[0.411274] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/ament_index/resource_index/package_run_dependencies/base_msgs_per\n'}
+[0.411375] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/ament_index/resource_index/parent_prefix_path/base_msgs_per\n'}
+[0.411475] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/environment/ament_prefix_path.sh\n'}
+[0.411659] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/environment/ament_prefix_path.dsv\n'}
+[0.411783] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/environment/path.sh\n'}
+[0.411882] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/environment/path.dsv\n'}
+[0.412019] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/local_setup.bash\n'}
+[0.412110] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/local_setup.sh\n'}
+[0.412204] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/local_setup.zsh\n'}
+[0.412310] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/local_setup.dsv\n'}
+[0.412405] (base_msgs_per) StdoutLine: {'line': b'-- Installing: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/package.dsv\n'}
+[0.412499] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/ament_index/resource_index/packages/base_msgs_per\n'}
+[0.412675] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/export_base_msgs_per__rosidl_generator_cExport.cmake\n'}
+[0.412796] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/export_base_msgs_per__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.412893] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/export_base_msgs_per__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.413127] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/export_base_msgs_per__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.413236] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/base_msgs_per__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.413327] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/base_msgs_per__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.413414] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/base_msgs_per__rosidl_typesupport_cExport.cmake\n'}
+[0.413501] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/base_msgs_per__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.413680] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/export_base_msgs_per__rosidl_generator_cppExport.cmake\n'}
+[0.413771] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/export_base_msgs_per__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.413834] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/export_base_msgs_per__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.413892] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/base_msgs_per__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.413947] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/base_msgs_per__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.414003] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/base_msgs_per__rosidl_typesupport_cppExport.cmake\n'}
+[0.414057] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/base_msgs_per__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.414110] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/export_base_msgs_per__rosidl_generator_pyExport.cmake\n'}
+[0.414164] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/export_base_msgs_per__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.414218] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/rosidl_cmake-extras.cmake\n'}
+[0.414273] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.414327] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.414386] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.414440] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.414493] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.414573] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.414632] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/base_msgs_perConfig.cmake\n'}
+[0.414687] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake/base_msgs_perConfig-version.cmake\n'}
+[0.414741] (base_msgs_per) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/package.xml\n'}
+[0.415362] (base_msgs_per) CommandEnded: {'returncode': 0}
+[0.436093] (base_msgs_per) JobEnded: {'identifier': 'base_msgs_per', 'rc': 0}
+[0.437103] (perception) JobStarted: {'identifier': 'perception'}
+[0.443746] (perception) JobProgress: {'identifier': 'perception', 'progress': 'cmake'}
+[0.444556] (perception) JobProgress: {'identifier': 'perception', 'progress': 'build'}
+[0.444918] (perception) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/abc/perception_with_ros2/build/perception', '--', '-j12', '-l12'], 'cwd': '/home/abc/perception_with_ros2/build/perception', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'abc'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abc/perception_with_ros2/install/base_msgs_per/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1149'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1608'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '201579'), ('COLCON_PREFIX_PATH', '/home/abc/perception_with_ros2/install:/home/abc/planning_with_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'abc'), ('JOURNAL_STREAM', '8:909'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/abc/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/abc/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/abc-G3-3500:@/tmp/.ICE-unix/1581,unix/abc-G3-3500:/tmp/.ICE-unix/1581'), ('INVOCATION_ID', 'c5577e6a91294bed97fcbd6a37e1442b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0370d1c5f2548263.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/abc/.config/Code/User/workspaceStorage/28936fba8b94055b776ffa577577e387/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS2_PERCEPTION_COURSE_INSTALL', '/home/abc/perception_with_ros2/install'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5e4b9a72ca.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/abc/perception_with_ros2/install/perception:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/data_plot:/home/abc/planning_with_ros2/install/base_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abc/perception_with_ros2/build/perception'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abc/perception_with_ros2/install/data_plot_per/lib/python3.10/site-packages:/home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages:/home/abc/planning_with_ros2/install/data_plot/lib/python3.10/site-packages:/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/perception_with_ros2/install/perception:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/base_msgs:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble')]), 'shell': False}
+[0.471333] (perception) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object src/common/CMakeFiles/config_reader.dir/config_reader/config_reader.cpp.o\x1b[0m\n'}
+[0.475671] (perception) StdoutLine: {'line': b'[  7%] Built target osqp_test\n'}
+[0.477129] (perception) StdoutLine: {'line': b'[ 15%] Built target mathlibs\n'}
+[0.479178] (perception) StdoutLine: {'line': b'[ 20%] Built target newton_test\n'}
+[0.500380] (-) TimerEvent: {}
+[0.600671] (-) TimerEvent: {}
+[0.700962] (-) TimerEvent: {}
+[0.721931] (data_plot_per) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/data_plot_per', 'build', '--build-base', '/home/abc/perception_with_ros2/build/data_plot_per/build', 'install', '--record', '/home/abc/perception_with_ros2/build/data_plot_per/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/abc/perception_with_ros2/src/data_plot_per', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'abc', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/base_msgs_per/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/abc', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.107.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1149', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1608', 'BUNDLED_DEBUGPY_PATH': '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '201579', 'COLCON_PREFIX_PATH': '/home/abc/perception_with_ros2/install:/home/abc/planning_with_ros2/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'abc', 'JOURNAL_STREAM': '8:909', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'abc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/abc/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/abc/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/abc-G3-3500:@/tmp/.ICE-unix/1581,unix/abc-G3-3500:/tmp/.ICE-unix/1581', 'INVOCATION_ID': 'c5577e6a91294bed97fcbd6a37e1442b', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0370d1c5f2548263.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/abc/.config/Code/User/workspaceStorage/28936fba8b94055b776ffa577577e387/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS2_PERCEPTION_COURSE_INSTALL': '/home/abc/perception_with_ros2/install', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-5e4b9a72ca.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '2', 'AMENT_PREFIX_PATH': '/home/abc/perception_with_ros2/install/perception:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/data_plot:/home/abc/planning_with_ros2/install/base_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/abc/perception_with_ros2/build/data_plot_per', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/abc/perception_with_ros2/build/data_plot_per/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abc/perception_with_ros2/install/data_plot_per/lib/python3.10/site-packages:/home/abc/perception_with_ros2/install/data_plot_per/lib/python3.10/site-packages:/home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages:/home/abc/planning_with_ros2/install/data_plot/lib/python3.10/site-packages:/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/abc/perception_with_ros2/install/perception:/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/base_msgs'}, 'shell': False}
+[0.801061] (-) TimerEvent: {}
+[0.901349] (-) TimerEvent: {}
+[0.962443] (data_plot_per) StdoutLine: {'line': b'running egg_info\n'}
+[0.964030] (data_plot_per) StdoutLine: {'line': b'writing ../../build/data_plot_per/data_plot_per.egg-info/PKG-INFO\n'}
+[0.964247] (data_plot_per) StdoutLine: {'line': b'writing dependency_links to ../../build/data_plot_per/data_plot_per.egg-info/dependency_links.txt\n'}
+[0.964413] (data_plot_per) StdoutLine: {'line': b'writing entry points to ../../build/data_plot_per/data_plot_per.egg-info/entry_points.txt\n'}
+[0.964559] (data_plot_per) StdoutLine: {'line': b'writing requirements to ../../build/data_plot_per/data_plot_per.egg-info/requires.txt\n'}
+[0.964714] (data_plot_per) StdoutLine: {'line': b'writing top-level names to ../../build/data_plot_per/data_plot_per.egg-info/top_level.txt\n'}
+[0.966412] (data_plot_per) StdoutLine: {'line': b"reading manifest file '../../build/data_plot_per/data_plot_per.egg-info/SOURCES.txt'\n"}
+[0.967213] (data_plot_per) StdoutLine: {'line': b"writing manifest file '../../build/data_plot_per/data_plot_per.egg-info/SOURCES.txt'\n"}
+[0.967391] (data_plot_per) StdoutLine: {'line': b'running build\n'}
+[0.967504] (data_plot_per) StdoutLine: {'line': b'running build_py\n'}
+[0.967729] (data_plot_per) StdoutLine: {'line': b'running install\n'}
+[0.968075] (data_plot_per) StdoutLine: {'line': b'running install_lib\n'}
+[0.969172] (data_plot_per) StdoutLine: {'line': b'running install_data\n'}
+[0.969347] (data_plot_per) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.971022] (data_plot_per) StdoutLine: {'line': b"removing '/home/abc/perception_with_ros2/install/data_plot_per/lib/python3.10/site-packages/data_plot_per-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.971354] (data_plot_per) StdoutLine: {'line': b'Copying ../../build/data_plot_per/data_plot_per.egg-info to /home/abc/perception_with_ros2/install/data_plot_per/lib/python3.10/site-packages/data_plot_per-0.0.0-py3.10.egg-info\n'}
+[0.972127] (data_plot_per) StdoutLine: {'line': b'running install_scripts\n'}
+[0.990831] (data_plot_per) StdoutLine: {'line': b'Installing data_plot_per script to /home/abc/perception_with_ros2/install/data_plot_per/lib/data_plot_per\n'}
+[0.991161] (data_plot_per) StdoutLine: {'line': b"writing list of installed files to '/home/abc/perception_with_ros2/build/data_plot_per/install.log'\n"}
+[1.001452] (-) TimerEvent: {}
+[1.013260] (data_plot_per) CommandEnded: {'returncode': 0}
+[1.023198] (data_plot_per) JobEnded: {'identifier': 'data_plot_per', 'rc': 0}
+[1.101572] (-) TimerEvent: {}
+[1.201803] (-) TimerEvent: {}
+[1.302072] (-) TimerEvent: {}
+[1.402335] (-) TimerEvent: {}
+[1.502610] (-) TimerEvent: {}
+[1.602842] (-) TimerEvent: {}
+[1.703110] (-) TimerEvent: {}
+[1.803380] (-) TimerEvent: {}
+[1.903646] (-) TimerEvent: {}
+[2.003912] (-) TimerEvent: {}
+[2.104147] (-) TimerEvent: {}
+[2.204417] (-) TimerEvent: {}
+[2.304694] (-) TimerEvent: {}
+[2.404932] (-) TimerEvent: {}
+[2.505215] (-) TimerEvent: {}
+[2.605492] (-) TimerEvent: {}
+[2.705769] (-) TimerEvent: {}
+[2.806034] (-) TimerEvent: {}
+[2.906301] (-) TimerEvent: {}
+[3.006573] (-) TimerEvent: {}
+[3.106810] (-) TimerEvent: {}
+[3.207077] (-) TimerEvent: {}
+[3.307352] (-) TimerEvent: {}
+[3.407627] (-) TimerEvent: {}
+[3.507891] (-) TimerEvent: {}
+[3.608152] (-) TimerEvent: {}
+[3.708410] (-) TimerEvent: {}
+[3.741083] (perception) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libconfig_reader.so\x1b[0m\n'}
+[3.808502] (-) TimerEvent: {}
+[3.829612] (perception) StdoutLine: {'line': b'[ 23%] Built target config_reader\n'}
+[3.842429] (perception) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object src/global_planner/CMakeFiles/global_planner.dir/global_planner_normal/global_planner_normal.cpp.o\x1b[0m\n'}
+[3.843067] (perception) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_straight/pnc_map_creator_straight.cpp.o\x1b[0m\n'}
+[3.843557] (perception) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_sturn/pnc_map_creator_sturn.cpp.o\x1b[0m\n'}
+[3.843929] (perception) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object src/vehicle_info/CMakeFiles/vehicle_info.dir/main_car/main_car_info.cpp.o\x1b[0m\n'}
+[3.844327] (perception) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object src/vehicle_info/CMakeFiles/vehicle_info.dir/obs_car/obs_car_info.cpp.o\x1b[0m\n'}
+[3.847138] (perception) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object src/reference_line/CMakeFiles/reference_line.dir/reference_line_creator.cpp.o\x1b[0m\n'}
+[3.847571] (perception) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object src/reference_line/CMakeFiles/reference_line.dir/reference_line_smoother.cpp.o\x1b[0m\n'}
+[3.908587] (-) TimerEvent: {}
+[4.008905] (-) TimerEvent: {}
+[4.109222] (-) TimerEvent: {}
+[4.209555] (-) TimerEvent: {}
+[4.309872] (-) TimerEvent: {}
+[4.410185] (-) TimerEvent: {}
+[4.510509] (-) TimerEvent: {}
+[4.610841] (-) TimerEvent: {}
+[4.711195] (-) TimerEvent: {}
+[4.811542] (-) TimerEvent: {}
+[4.911875] (-) TimerEvent: {}
+[5.012221] (-) TimerEvent: {}
+[5.112569] (-) TimerEvent: {}
+[5.212907] (-) TimerEvent: {}
+[5.313255] (-) TimerEvent: {}
+[5.413598] (-) TimerEvent: {}
+[5.513946] (-) TimerEvent: {}
+[5.614283] (-) TimerEvent: {}
+[5.714604] (-) TimerEvent: {}
+[5.814956] (-) TimerEvent: {}
+[5.915300] (-) TimerEvent: {}
+[6.015608] (-) TimerEvent: {}
+[6.115955] (-) TimerEvent: {}
+[6.216285] (-) TimerEvent: {}
+[6.316629] (-) TimerEvent: {}
+[6.416990] (-) TimerEvent: {}
+[6.517335] (-) TimerEvent: {}
+[6.617676] (-) TimerEvent: {}
+[6.718029] (-) TimerEvent: {}
+[6.818363] (-) TimerEvent: {}
+[6.921595] (-) TimerEvent: {}
+[7.021954] (-) TimerEvent: {}
+[7.122339] (-) TimerEvent: {}
+[7.222693] (-) TimerEvent: {}
+[7.323046] (-) TimerEvent: {}
+[7.423418] (-) TimerEvent: {}
+[7.523784] (-) TimerEvent: {}
+[7.624129] (-) TimerEvent: {}
+[7.724479] (-) TimerEvent: {}
+[7.824849] (-) TimerEvent: {}
+[7.925193] (-) TimerEvent: {}
+[8.025542] (-) TimerEvent: {}
+[8.125885] (-) TimerEvent: {}
+[8.226208] (-) TimerEvent: {}
+[8.326558] (-) TimerEvent: {}
+[8.426846] (-) TimerEvent: {}
+[8.504813] (perception) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libglobal_planner.so\x1b[0m\n'}
+[8.526953] (-) TimerEvent: {}
+[8.615072] (perception) StdoutLine: {'line': b'[ 43%] Built target global_planner\n'}
+[8.627070] (-) TimerEvent: {}
+[8.628972] (perception) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object src/global_planner/CMakeFiles/global_path_server.dir/global_path_server.cpp.o\x1b[0m\n'}
+[8.697908] (perception) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libvehicle_info.so\x1b[0m\n'}
+[8.727189] (-) TimerEvent: {}
+[8.827536] (-) TimerEvent: {}
+[8.905223] (perception) StdoutLine: {'line': b'[ 48%] Built target vehicle_info\n'}
+[8.919622] (perception) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object src/move_cmd/CMakeFiles/car_move_cmd.dir/car_move_cmd.cpp.o\x1b[0m\n'}
+[8.925344] (perception) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object src/decision_center/CMakeFiles/decision_center.dir/decision_center.cpp.o\x1b[0m\n'}
+[8.925594] (perception) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object src/move_cmd/CMakeFiles/obs_move_cmd.dir/obs_move_cmd.cpp.o\x1b[0m\n'}
+[8.927597] (-) TimerEvent: {}
+[9.027899] (-) TimerEvent: {}
+[9.128194] (-) TimerEvent: {}
+[9.204467] (perception) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libpnc_map_creator.so\x1b[0m\n'}
+[9.228305] (-) TimerEvent: {}
+[9.328602] (-) TimerEvent: {}
+[9.371900] (perception) StdoutLine: {'line': b'[ 58%] Built target pnc_map_creator\n'}
+[9.385879] (perception) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/pnc_map_server.cpp.o\x1b[0m\n'}
+[9.428712] (-) TimerEvent: {}
+[9.529030] (-) TimerEvent: {}
+[9.629350] (-) TimerEvent: {}
+[9.729672] (-) TimerEvent: {}
+[9.830000] (-) TimerEvent: {}
+[9.930332] (-) TimerEvent: {}
+[9.980370] (perception) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libreference_line.so\x1b[0m\n'}
+[10.030455] (-) TimerEvent: {}
+[10.130826] (-) TimerEvent: {}
+[10.231197] (-) TimerEvent: {}
+[10.331594] (-) TimerEvent: {}
+[10.431934] (-) TimerEvent: {}
+[10.441729] (perception) StdoutLine: {'line': b'[ 64%] Built target reference_line\n'}
+[10.532060] (-) TimerEvent: {}
+[10.632405] (-) TimerEvent: {}
+[10.732759] (-) TimerEvent: {}
+[10.833106] (-) TimerEvent: {}
+[10.933460] (-) TimerEvent: {}
+[11.033827] (-) TimerEvent: {}
+[11.134164] (-) TimerEvent: {}
+[11.234489] (-) TimerEvent: {}
+[11.334837] (-) TimerEvent: {}
+[11.435182] (-) TimerEvent: {}
+[11.535538] (-) TimerEvent: {}
+[11.635874] (-) TimerEvent: {}
+[11.736205] (-) TimerEvent: {}
+[11.836567] (-) TimerEvent: {}
+[11.936905] (-) TimerEvent: {}
+[12.037233] (-) TimerEvent: {}
+[12.137568] (-) TimerEvent: {}
+[12.237899] (-) TimerEvent: {}
+[12.338247] (-) TimerEvent: {}
+[12.438590] (-) TimerEvent: {}
+[12.538913] (-) TimerEvent: {}
+[12.639254] (-) TimerEvent: {}
+[12.739623] (-) TimerEvent: {}
+[12.839906] (-) TimerEvent: {}
+[12.940163] (-) TimerEvent: {}
+[13.010516] (perception) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libdecision_center.so\x1b[0m\n'}
+[13.040295] (-) TimerEvent: {}
+[13.140596] (-) TimerEvent: {}
+[13.145342] (perception) StdoutLine: {'line': b'[ 66%] Built target decision_center\n'}
+[13.183664] (perception) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o\x1b[0m\n'}
+[13.187619] (perception) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_planner.cpp.o\x1b[0m\n'}
+[13.190573] (perception) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_smoother.cpp.o\x1b[0m\n'}
+[13.201178] (perception) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_planner.cpp.o\x1b[0m\n'}
+[13.208744] (perception) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_smoother.cpp.o\x1b[0m\n'}
+[13.240712] (-) TimerEvent: {}
+[13.341036] (-) TimerEvent: {}
+[13.441559] (-) TimerEvent: {}
+[13.542264] (-) TimerEvent: {}
+[13.643006] (-) TimerEvent: {}
+[13.743520] (-) TimerEvent: {}
+[13.843866] (-) TimerEvent: {}
+[13.944208] (-) TimerEvent: {}
+[13.985230] (perception) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX executable obs_move_cmd\x1b[0m\n'}
+[14.044327] (-) TimerEvent: {}
+[14.145211] (-) TimerEvent: {}
+[14.245564] (-) TimerEvent: {}
+[14.265915] (perception) StdoutLine: {'line': b'[ 82%] Built target obs_move_cmd\n'}
+[14.345678] (-) TimerEvent: {}
+[14.446023] (-) TimerEvent: {}
+[14.546353] (-) TimerEvent: {}
+[14.646708] (-) TimerEvent: {}
+[14.747086] (-) TimerEvent: {}
+[14.847414] (-) TimerEvent: {}
+[14.947748] (-) TimerEvent: {}
+[15.048069] (-) TimerEvent: {}
+[15.148405] (-) TimerEvent: {}
+[15.248731] (-) TimerEvent: {}
+[15.330883] (perception) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX executable global_path_server\x1b[0m\n'}
+[15.348851] (-) TimerEvent: {}
+[15.449225] (-) TimerEvent: {}
+[15.549588] (-) TimerEvent: {}
+[15.606576] (perception) StdoutLine: {'line': b'[ 84%] Built target global_path_server\n'}
+[15.649696] (-) TimerEvent: {}
+[15.750031] (-) TimerEvent: {}
+[15.850374] (-) TimerEvent: {}
+[15.950711] (-) TimerEvent: {}
+[16.051034] (-) TimerEvent: {}
+[16.151356] (-) TimerEvent: {}
+[16.251712] (-) TimerEvent: {}
+[16.352054] (-) TimerEvent: {}
+[16.452393] (-) TimerEvent: {}
+[16.552746] (-) TimerEvent: {}
+[16.653139] (-) TimerEvent: {}
+[16.714487] (perception) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable pnc_map_server\x1b[0m\n'}
+[16.753255] (-) TimerEvent: {}
+[16.853620] (-) TimerEvent: {}
+[16.953995] (-) TimerEvent: {}
+[16.998329] (perception) StdoutLine: {'line': b'[ 87%] Built target pnc_map_server\n'}
+[17.054083] (-) TimerEvent: {}
+[17.154370] (-) TimerEvent: {}
+[17.254656] (-) TimerEvent: {}
+[17.354940] (-) TimerEvent: {}
+[17.455187] (-) TimerEvent: {}
+[17.482178] (perception) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abc/perception_with_ros2/src/perception/src/local_planner/local_trajectory_combiner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbase_msgs_per::msg::LocalTrajectory Perception::LocalTrajectoryCombiner::combin_trajectory(const LocalPath&, const LocalSpeeds&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.482355] (perception) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abc/perception_with_ros2/src/perception/src/local_planner/local_trajectory_combiner.cpp:15:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kspeeds_size\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.482433] (perception) StderrLine: {'line': b'   15 |         const int \x1b[01;35m\x1b[Kspeeds_size\x1b[m\x1b[K = speeds.local_speeds.size();\n'}
+[17.482499] (perception) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.555283] (-) TimerEvent: {}
+[17.655564] (-) TimerEvent: {}
+[17.755841] (-) TimerEvent: {}
+[17.856097] (-) TimerEvent: {}
+[17.956379] (-) TimerEvent: {}
+[18.056615] (-) TimerEvent: {}
+[18.156853] (-) TimerEvent: {}
+[18.257102] (-) TimerEvent: {}
+[18.357351] (-) TimerEvent: {}
+[18.457616] (-) TimerEvent: {}
+[18.557923] (-) TimerEvent: {}
+[18.658226] (-) TimerEvent: {}
+[18.721878] (perception) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX executable car_move_cmd\x1b[0m\n'}
+[18.758367] (-) TimerEvent: {}
+[18.858642] (-) TimerEvent: {}
+[18.958921] (-) TimerEvent: {}
+[19.048184] (perception) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX shared library liblocal_planner.so\x1b[0m\n'}
+[19.059034] (-) TimerEvent: {}
+[19.159254] (-) TimerEvent: {}
+[19.201509] (perception) StdoutLine: {'line': b'[ 92%] Built target car_move_cmd\n'}
+[19.255133] (perception) StdoutLine: {'line': b'[ 92%] Built target local_planner\n'}
+[19.259357] (-) TimerEvent: {}
+[19.273835] (perception) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object src/perception_process/CMakeFiles/perception_process.dir/perception_process_main.cpp.o\x1b[0m\n'}
+[19.274483] (perception) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object src/perception_process/CMakeFiles/perception_process.dir/perception_process.cpp.o\x1b[0m\n'}
+[19.359463] (-) TimerEvent: {}
+[19.459762] (-) TimerEvent: {}
+[19.560050] (-) TimerEvent: {}
+[19.660340] (-) TimerEvent: {}
+[19.760659] (-) TimerEvent: {}
+[19.860963] (-) TimerEvent: {}
+[19.961278] (-) TimerEvent: {}
+[20.061593] (-) TimerEvent: {}
+[20.161909] (-) TimerEvent: {}
+[20.262220] (-) TimerEvent: {}
+[20.362539] (-) TimerEvent: {}
+[20.462866] (-) TimerEvent: {}
+[20.563168] (-) TimerEvent: {}
+[20.663475] (-) TimerEvent: {}
+[20.763789] (-) TimerEvent: {}
+[20.864104] (-) TimerEvent: {}
+[20.964419] (-) TimerEvent: {}
+[21.064745] (-) TimerEvent: {}
+[21.165066] (-) TimerEvent: {}
+[21.265388] (-) TimerEvent: {}
+[21.365723] (-) TimerEvent: {}
+[21.466046] (-) TimerEvent: {}
+[21.566390] (-) TimerEvent: {}
+[21.666715] (-) TimerEvent: {}
+[21.767030] (-) TimerEvent: {}
+[21.867361] (-) TimerEvent: {}
+[21.967677] (-) TimerEvent: {}
+[22.067990] (-) TimerEvent: {}
+[22.168298] (-) TimerEvent: {}
+[22.268608] (-) TimerEvent: {}
+[22.368928] (-) TimerEvent: {}
+[22.469248] (-) TimerEvent: {}
+[22.569561] (-) TimerEvent: {}
+[22.669871] (-) TimerEvent: {}
+[22.770175] (-) TimerEvent: {}
+[22.870497] (-) TimerEvent: {}
+[22.970826] (-) TimerEvent: {}
+[23.071140] (-) TimerEvent: {}
+[23.171407] (-) TimerEvent: {}
+[23.271683] (-) TimerEvent: {}
+[23.371925] (-) TimerEvent: {}
+[23.472214] (-) TimerEvent: {}
+[23.572492] (-) TimerEvent: {}
+[23.672759] (-) TimerEvent: {}
+[23.773006] (-) TimerEvent: {}
+[23.873310] (-) TimerEvent: {}
+[23.973625] (-) TimerEvent: {}
+[24.073892] (-) TimerEvent: {}
+[24.174163] (-) TimerEvent: {}
+[24.274431] (-) TimerEvent: {}
+[24.374671] (-) TimerEvent: {}
+[24.474946] (-) TimerEvent: {}
+[24.575226] (-) TimerEvent: {}
+[24.675500] (-) TimerEvent: {}
+[24.775773] (-) TimerEvent: {}
+[24.876042] (-) TimerEvent: {}
+[24.976308] (-) TimerEvent: {}
+[25.076578] (-) TimerEvent: {}
+[25.176813] (-) TimerEvent: {}
+[25.277083] (-) TimerEvent: {}
+[25.377351] (-) TimerEvent: {}
+[25.477621] (-) TimerEvent: {}
+[25.577855] (-) TimerEvent: {}
+[25.678122] (-) TimerEvent: {}
+[25.778392] (-) TimerEvent: {}
+[25.878665] (-) TimerEvent: {}
+[25.978948] (-) TimerEvent: {}
+[26.079227] (-) TimerEvent: {}
+[26.179466] (-) TimerEvent: {}
+[26.279763] (-) TimerEvent: {}
+[26.380004] (-) TimerEvent: {}
+[26.480306] (-) TimerEvent: {}
+[26.580566] (-) TimerEvent: {}
+[26.680870] (-) TimerEvent: {}
+[26.781198] (-) TimerEvent: {}
+[26.881464] (-) TimerEvent: {}
+[26.981697] (-) TimerEvent: {}
+[27.081959] (-) TimerEvent: {}
+[27.182224] (-) TimerEvent: {}
+[27.282487] (-) TimerEvent: {}
+[27.382724] (-) TimerEvent: {}
+[27.482947] (-) TimerEvent: {}
+[27.583216] (-) TimerEvent: {}
+[27.683479] (-) TimerEvent: {}
+[27.783750] (-) TimerEvent: {}
+[27.884013] (-) TimerEvent: {}
+[27.984278] (-) TimerEvent: {}
+[28.084545] (-) TimerEvent: {}
+[28.184809] (-) TimerEvent: {}
+[28.285082] (-) TimerEvent: {}
+[28.385389] (-) TimerEvent: {}
+[28.485713] (-) TimerEvent: {}
+[28.586026] (-) TimerEvent: {}
+[28.686356] (-) TimerEvent: {}
+[28.786735] (-) TimerEvent: {}
+[28.887080] (-) TimerEvent: {}
+[28.987410] (-) TimerEvent: {}
+[29.087688] (-) TimerEvent: {}
+[29.187911] (-) TimerEvent: {}
+[29.288175] (-) TimerEvent: {}
+[29.388435] (-) TimerEvent: {}
+[29.488702] (-) TimerEvent: {}
+[29.588967] (-) TimerEvent: {}
+[29.689227] (-) TimerEvent: {}
+[29.789488] (-) TimerEvent: {}
+[29.889757] (-) TimerEvent: {}
+[29.990020] (-) TimerEvent: {}
+[30.090283] (-) TimerEvent: {}
+[30.190549] (-) TimerEvent: {}
+[30.290810] (-) TimerEvent: {}
+[30.391070] (-) TimerEvent: {}
+[30.491333] (-) TimerEvent: {}
+[30.591601] (-) TimerEvent: {}
+[30.691866] (-) TimerEvent: {}
+[30.792134] (-) TimerEvent: {}
+[30.892404] (-) TimerEvent: {}
+[30.992679] (-) TimerEvent: {}
+[31.092950] (-) TimerEvent: {}
+[31.193217] (-) TimerEvent: {}
+[31.293485] (-) TimerEvent: {}
+[31.393758] (-) TimerEvent: {}
+[31.494051] (-) TimerEvent: {}
+[31.594339] (-) TimerEvent: {}
+[31.694614] (-) TimerEvent: {}
+[31.794894] (-) TimerEvent: {}
+[31.895164] (-) TimerEvent: {}
+[31.995482] (-) TimerEvent: {}
+[32.095851] (-) TimerEvent: {}
+[32.196097] (-) TimerEvent: {}
+[32.268390] (perception) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable perception_process\x1b[0m\n'}
+[32.296193] (-) TimerEvent: {}
+[32.396477] (-) TimerEvent: {}
+[32.496726] (-) TimerEvent: {}
+[32.597001] (-) TimerEvent: {}
+[32.697273] (-) TimerEvent: {}
+[32.797554] (-) TimerEvent: {}
+[32.882968] (perception) StdoutLine: {'line': b'[100%] Built target perception_process\n'}
+[32.886685] (perception) CommandEnded: {'returncode': 0}
+[32.887439] (perception) JobProgress: {'identifier': 'perception', 'progress': 'install'}
+[32.887822] (perception) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/abc/perception_with_ros2/build/perception'], 'cwd': '/home/abc/perception_with_ros2/build/perception', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'abc'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abc/perception_with_ros2/install/base_msgs_per/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1149'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1608'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '201579'), ('COLCON_PREFIX_PATH', '/home/abc/perception_with_ros2/install:/home/abc/planning_with_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'abc'), ('JOURNAL_STREAM', '8:909'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/abc/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/abc/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/abc-G3-3500:@/tmp/.ICE-unix/1581,unix/abc-G3-3500:/tmp/.ICE-unix/1581'), ('INVOCATION_ID', 'c5577e6a91294bed97fcbd6a37e1442b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0370d1c5f2548263.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/abc/.config/Code/User/workspaceStorage/28936fba8b94055b776ffa577577e387/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS2_PERCEPTION_COURSE_INSTALL', '/home/abc/perception_with_ros2/install'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5e4b9a72ca.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/abc/perception_with_ros2/install/perception:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/data_plot:/home/abc/planning_with_ros2/install/base_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abc/perception_with_ros2/build/perception'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abc/perception_with_ros2/install/data_plot_per/lib/python3.10/site-packages:/home/abc/perception_with_ros2/install/base_msgs_per/local/lib/python3.10/dist-packages:/home/abc/planning_with_ros2/install/data_plot/lib/python3.10/site-packages:/home/abc/planning_with_ros2/install/base_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/perception_with_ros2/install/perception:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/base_msgs:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble')]), 'shell': False}
+[32.889991] (perception) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.890311] (perception) StdoutLine: {'line': b'-- Installing: /home/abc/perception_with_ros2/install/perception/lib/libconfig_reader.so\n'}
+[32.891009] (perception) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/libconfig_reader.so" to ""\n'}
+[32.891147] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/lib/libmathlibs.so\n'}
+[32.891511] (perception) StdoutLine: {'line': b'-- Installing: /home/abc/perception_with_ros2/install/perception/lib/libdecision_center.so\n'}
+[32.891995] (perception) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/libdecision_center.so" to ""\n'}
+[32.892279] (perception) StdoutLine: {'line': b'-- Installing: /home/abc/perception_with_ros2/install/perception/lib/libpnc_map_creator.so\n'}
+[32.892860] (perception) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/libpnc_map_creator.so" to ""\n'}
+[32.893004] (perception) StdoutLine: {'line': b'-- Installing: /home/abc/perception_with_ros2/install/perception/lib/perception/pnc_map_server\n'}
+[32.894722] (perception) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/perception/pnc_map_server" to ""\n'}
+[32.895055] (perception) StdoutLine: {'line': b'-- Installing: /home/abc/perception_with_ros2/install/perception/lib/libglobal_planner.so\n'}
+[32.895457] (perception) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/libglobal_planner.so" to ""\n'}
+[32.895618] (perception) StdoutLine: {'line': b'-- Installing: /home/abc/perception_with_ros2/install/perception/lib/perception/global_path_server\n'}
+[32.897210] (perception) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/perception/global_path_server" to ""\n'}
+[32.897470] (perception) StdoutLine: {'line': b'-- Installing: /home/abc/perception_with_ros2/install/perception/lib/liblocal_planner.so\n'}
+[32.897593] (-) TimerEvent: {}
+[32.898237] (perception) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/liblocal_planner.so" to ""\n'}
+[32.898482] (perception) StdoutLine: {'line': b'-- Installing: /home/abc/perception_with_ros2/install/perception/lib/libreference_line.so\n'}
+[32.899591] (perception) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/libreference_line.so" to ""\n'}
+[32.899936] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/lib/perception/osqp_test\n'}
+[32.900134] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/lib/perception/newton_test\n'}
+[32.900493] (perception) StdoutLine: {'line': b'-- Installing: /home/abc/perception_with_ros2/install/perception/lib/libvehicle_info.so\n'}
+[32.900980] (perception) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/libvehicle_info.so" to ""\n'}
+[32.901280] (perception) StdoutLine: {'line': b'-- Installing: /home/abc/perception_with_ros2/install/perception/lib/perception/perception_process\n'}
+[32.905916] (perception) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/perception/perception_process" to ""\n'}
+[32.906254] (perception) StdoutLine: {'line': b'-- Installing: /home/abc/perception_with_ros2/install/perception/lib/perception/car_move_cmd\n'}
+[32.909454] (perception) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/perception/car_move_cmd" to ""\n'}
+[32.909605] (perception) StdoutLine: {'line': b'-- Installing: /home/abc/perception_with_ros2/install/perception/lib/perception/obs_move_cmd\n'}
+[32.910564] (perception) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/perception/obs_move_cmd" to ""\n'}
+[32.910656] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/config\n'}
+[32.910744] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/config/perception_static_obs_config.yaml\n'}
+[32.910826] (perception) StdoutLine: {'line': b'-- Installing: /home/abc/perception_with_ros2/install/perception/share/perception/config/perception_dynamic_obs_config.yaml\n'}
+[32.910931] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/launch\n'}
+[32.911019] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/launch/perception_launch.py\n'}
+[32.911093] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/launch/move_cmd_launch.py\n'}
+[32.911171] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/urdf\n'}
+[32.911249] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/urdf/main_car\n'}
+[32.911327] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/urdf/main_car/car_camera.xacro\n'}
+[32.911441] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/urdf/main_car/car_base.xacro\n'}
+[32.911570] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/urdf/main_car/car_radar.xacro\n'}
+[32.911636] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/urdf/main_car/car.xacro\n'}
+[32.911713] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/urdf/main_car/car_wheels.xacro\n'}
+[32.911771] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/urdf/obs_car\n'}
+[32.911830] (perception) StdoutLine: {'line': b'-- Installing: /home/abc/perception_with_ros2/install/perception/share/perception/urdf/obs_car/obs_car.xacro\n'}
+[32.911889] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/rviz\n'}
+[32.911968] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/rviz/perception.rviz\n'}
+[32.912024] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/ament_index/resource_index/package_run_dependencies/perception\n'}
+[32.912079] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/ament_index/resource_index/parent_prefix_path/perception\n'}
+[32.912135] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/environment/ament_prefix_path.sh\n'}
+[32.912190] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/environment/ament_prefix_path.dsv\n'}
+[32.912245] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/environment/path.sh\n'}
+[32.912299] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/environment/path.dsv\n'}
+[32.912586] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/local_setup.bash\n'}
+[32.912812] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/local_setup.sh\n'}
+[32.912883] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/local_setup.zsh\n'}
+[32.913042] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/local_setup.dsv\n'}
+[32.913110] (perception) StdoutLine: {'line': b'-- Installing: /home/abc/perception_with_ros2/install/perception/share/perception/package.dsv\n'}
+[32.913239] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/ament_index/resource_index/packages/perception\n'}
+[32.913299] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/cmake/perceptionConfig.cmake\n'}
+[32.913358] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/cmake/perceptionConfig-version.cmake\n'}
+[32.913416] (perception) StdoutLine: {'line': b'-- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/package.xml\n'}
+[32.913763] (perception) CommandEnded: {'returncode': 0}
+[32.928579] (perception) JobEnded: {'identifier': 'perception', 'rc': 0}
+[32.929195] (-) EventReactorShutdown: {}
