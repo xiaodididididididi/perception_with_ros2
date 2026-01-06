@@ -5,8 +5,8 @@ namespace Perception
     ConfigReader::ConfigReader()
     {
         std::string perception_share_directory = ament_index_cpp::get_package_share_directory("perception");
-        // perception_config = YAML::LoadFile(perception_share_directory + "/config/perception_static_obs_config.yaml");
-        perception_config = YAML::LoadFile(perception_share_directory + "/config/perception_dynamic_obs_config.yaml");
+        perception_config = YAML::LoadFile(perception_share_directory + "/config/perception_static_obs_config.yaml");
+        // perception_config = YAML::LoadFile(perception_share_directory + "/config/perception_dynamic_obs_config.yaml");
     }
 
     void ConfigReader::read_vehicle_config(VehicleStruct &vehicle, const std::string &name)
@@ -34,7 +34,6 @@ namespace Perception
             read_vehicle_config(obs_car1_, "obs_car1");
             read_vehicle_config(obs_car2_, "obs_car2");
             read_vehicle_config(obs_car3_, "obs_car3");
-            read_vehicle_config(obs_car4_, "obs_car4");
         }
         catch (const YAML::Exception &e)
         {
@@ -105,7 +104,8 @@ namespace Perception
     {
         try
         {
-            read_vehicles_config();
+            read_pnc_map_config();
+            // read_vehicles_config();
             local_speeds_.speed_size_ = perception_config["local_speed"]["speed_size"].as<int>();
         }
         catch (const YAML::Exception &e)

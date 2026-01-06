@@ -28,9 +28,9 @@ namespace Perception
             theta_ = point.path_point.theta;
             kappa_ = point.path_point.kappa;
             dkappa_ = point.path_point.dkappa;
-            speed_ = point.speed_point.speed;
-            acceleration_ = point.speed_point.acceleration;
-            dacceleration_ = point.speed_point.dacceleration;
+            // speed_ = point.speed_point.speed;
+            // acceleration_ = point.speed_point.acceleration;
+            // dacceleration_ = point.speed_point.dacceleration;
         }
 
         inline void update_t0() { t0_ -= 1.0; }

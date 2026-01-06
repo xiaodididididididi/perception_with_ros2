@@ -35,15 +35,6 @@ vehicle:                          #　车辆
     pose_y: 0.0
     pose_theta: 0.0
     speed_ori: 0.0
-  obs_car4:                       #　第4辆障碍物
-    id: 4
-    frame: "base_footprint_obs4"
-    length: 3.0
-    width: 3.0
-    pose_x: 60.0
-    pose_y: 70.0
-    pose_theta: 1.57
-    speed_ori: 0.0
 
 pnc_map:                          #　pnc地图
   frame: "map"                    #　坐标名
