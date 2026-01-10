@@ -1,0 +1,173 @@
+[0.012s] Invoking command in '/home/abc/perception_with_ros2/build/perception': CMAKE_PREFIX_PATH=/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/perception_with_ros2/install/perception:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/base_msgs:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/perception_with_ros2/install/base_msgs_per/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake /home/abc/perception_with_ros2/src/perception -DCMAKE_INSTALL_PREFIX=/home/abc/perception_with_ros2/install/perception
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.131s] -- The CXX compiler identification is GNU 11.4.0
+[0.142s] -- Detecting C compiler ABI info
+[0.194s] -- Detecting C compiler ABI info - done
+[0.212s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.212s] -- Detecting C compile features
+[0.212s] -- Detecting C compile features - done
+[0.222s] -- Detecting CXX compiler ABI info
+[0.278s] -- Detecting CXX compiler ABI info - done
+[0.297s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.298s] -- Detecting CXX compile features
+[0.298s] -- Detecting CXX compile features - done
+[0.305s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.433s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.523s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.575s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.581s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.592s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.608s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.628s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.695s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.699s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.781s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[0.814s] -- Found FastRTPS: /opt/ros/humble/include
+[0.856s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.866s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.921s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.922s] -- Found Threads: TRUE
+[1.001s] -- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)
+[1.033s] -- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.173s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.201s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.259s] -- Found base_msgs_per: 0.0.0 (/home/abc/perception_with_ros2/install/base_msgs_per/share/base_msgs_per/cmake)
+[1.357s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.437s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.439s] -- Configured cppcheck include dirs: /home/abc/perception_with_ros2/src/perception/src/common/config_reader;/home/abc/perception_with_ros2/src/perception/src/common/math;/home/abc/perception_with_ros2/src/perception/src/decision_center;/home/abc/perception_with_ros2/src/perception/src/pnc_map_creator;/home/abc/perception_with_ros2/src/perception/src/pnc_map_creator/pnc_map_straight;/home/abc/perception_with_ros2/src/perception/src/pnc_map_creator/pnc_map_sturn;/home/abc/perception_with_ros2/src/perception/src/global_planner;/home/abc/perception_with_ros2/src/perception/src/global_planner/global_planner_normal;/home/abc/perception_with_ros2/src/perception/src/local_planner;/home/abc/perception_with_ros2/src/perception/src/local_planner/local_path;/home/abc/perception_with_ros2/src/perception/src/local_planner/local_speeds;/home/abc/perception_with_ros2/src/perception/src/reference_line;/home/abc/perception_with_ros2/src/perception/src/test/osqp_test;/home/abc/perception_with_ros2/src/perception/src/vehicle_info;/home/abc/perception_with_ros2/src/perception/src/vehicle_info/main_car;/home/abc/perception_with_ros2/src/perception/src/vehicle_info/obs_car;/home/abc/perception_with_ros2/src/perception/src/perception_process;/home/abc/perception_with_ros2/src/perception/src/move_cmd
+[1.439s] -- Configured cppcheck exclude dirs and/or files: 
+[1.440s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.441s] -- Added test 'lint_cmake' to check CMake code style
+[1.442s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.446s] -- Added test 'uncrustify' to check C / C++ code style
+[1.446s] -- Configured uncrustify additional arguments: 
+[1.447s] -- Added test 'xmllint' to check XML markup files
+[1.449s] -- Configuring done (1.4s)
+[1.548s] -- Generating done (0.1s)
+[1.573s] -- Build files have been written to: /home/abc/perception_with_ros2/build/perception
+[1.589s] Invoked command in '/home/abc/perception_with_ros2/build/perception' returned '0': CMAKE_PREFIX_PATH=/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/perception_with_ros2/install/perception:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/base_msgs:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/perception_with_ros2/install/base_msgs_per/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake /home/abc/perception_with_ros2/src/perception -DCMAKE_INSTALL_PREFIX=/home/abc/perception_with_ros2/install/perception
+[1.590s] Invoking command in '/home/abc/perception_with_ros2/build/perception': CMAKE_PREFIX_PATH=/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/perception_with_ros2/install/perception:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/base_msgs:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/perception_with_ros2/install/base_msgs_per/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/abc/perception_with_ros2/build/perception -- -j12 -l12
+[1.609s] [  2%] [32mBuilding CXX object src/common/CMakeFiles/config_reader.dir/config_reader/config_reader.cpp.o[0m
+[1.609s] [  5%] [32mBuilding CXX object src/test/CMakeFiles/osqp_test.dir/osqp_test/osqp_test.cpp.o[0m
+[1.609s] [  7%] [32mBuilding CXX object src/common/CMakeFiles/mathlibs.dir/math/curve.cpp.o[0m
+[1.609s] [ 10%] [32mBuilding CXX object src/test/CMakeFiles/newton_test.dir/newton_test/newton_test.cpp.o[0m
+[1.609s] [ 12%] [32mBuilding CXX object src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o[0m
+[5.385s] [ 15%] [32m[1mLinking CXX shared library libconfig_reader.so[0m
+[5.492s] [ 15%] Built target config_reader
+[5.502s] [ 17%] [32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_straight/pnc_map_creator_straight.cpp.o[0m
+[5.502s] [ 20%] [32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_sturn/pnc_map_creator_sturn.cpp.o[0m
+[5.502s] [ 23%] [32mBuilding CXX object src/global_planner/CMakeFiles/global_planner.dir/global_planner_normal/global_planner_normal.cpp.o[0m
+[5.609s] [ 25%] [32m[1mLinking CXX executable newton_test[0m
+[5.714s] [ 25%] Built target newton_test
+[6.131s] [ 28%] [32m[1mLinking CXX executable osqp_test[0m
+[6.256s] [ 28%] Built target osqp_test
+[8.961s] [ 30%] [32m[1mLinking CXX shared library libglobal_planner.so[0m
+[9.075s] [ 30%] Built target global_planner
+[9.083s] [ 33%] [32mBuilding CXX object src/global_planner/CMakeFiles/global_path_server.dir/global_path_server.cpp.o[0m
+[9.412s] [ 35%] [32m[1mLinking CXX shared library libpnc_map_creator.so[0m
+[9.545s] [ 35%] Built target pnc_map_creator
+[9.553s] [ 38%] [32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/pnc_map_server.cpp.o[0m
+[15.342s] [ 41%] [32m[1mLinking CXX shared library libmathlibs.so[0m
+[15.410s] [ 43%] [32m[1mLinking CXX executable global_path_server[0m
+[15.673s] [ 43%] Built target global_path_server
+[15.727s] [ 43%] Built target mathlibs
+[15.736s] [ 48%] [32mBuilding CXX object src/vehicle_info/CMakeFiles/vehicle_info.dir/main_car/main_car_info.cpp.o[0m
+[15.736s] [ 48%] [32mBuilding CXX object src/reference_line/CMakeFiles/reference_line.dir/reference_line_creator.cpp.o[0m
+[15.736s] [ 51%] [32mBuilding CXX object src/vehicle_info/CMakeFiles/vehicle_info.dir/obs_car/obs_car_info.cpp.o[0m
+[15.736s] [ 53%] [32mBuilding CXX object src/reference_line/CMakeFiles/reference_line.dir/reference_line_smoother.cpp.o[0m
+[16.027s] [ 56%] [32m[1mLinking CXX executable pnc_map_server[0m
+[16.305s] [ 56%] Built target pnc_map_server
+[19.235s] [ 58%] [32m[1mLinking CXX shared library libvehicle_info.so[0m
+[19.465s] [ 58%] Built target vehicle_info
+[19.473s] [ 64%] [32mBuilding CXX object src/decision_center/CMakeFiles/decision_center.dir/decision_center.cpp.o[0m
+[19.473s] [ 64%] [32mBuilding CXX object src/move_cmd/CMakeFiles/car_move_cmd.dir/car_move_cmd.cpp.o[0m
+[19.473s] [ 66%] [32mBuilding CXX object src/move_cmd/CMakeFiles/obs_move_cmd.dir/obs_move_cmd.cpp.o[0m
+[21.156s] [ 69%] [32m[1mLinking CXX shared library libreference_line.so[0m
+[21.405s] [ 69%] Built target reference_line
+[22.940s] [ 71%] [32m[1mLinking CXX shared library libdecision_center.so[0m
+[23.071s] [ 71%] Built target decision_center
+[23.079s] [ 74%] [32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o[0m
+[23.079s] [ 76%] [32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_smoother.cpp.o[0m
+[23.079s] [ 79%] [32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_planner.cpp.o[0m
+[23.080s] [ 82%] [32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_planner.cpp.o[0m
+[23.080s] [ 84%] [32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_smoother.cpp.o[0m
+[24.943s] [ 87%] [32m[1mLinking CXX executable obs_move_cmd[0m
+[25.346s] [ 87%] Built target obs_move_cmd
+[26.180s] [01m[K/home/abc/perception_with_ros2/src/perception/src/local_planner/local_trajectory_combiner.cpp:[m[K In member function ‘[01m[Kbase_msgs_per::msg::LocalTrajectory Perception::LocalTrajectoryCombiner::combin_trajectory(const LocalPath&, const LocalSpeeds&)[m[K’:
+[26.180s] [01m[K/home/abc/perception_with_ros2/src/perception/src/local_planner/local_trajectory_combiner.cpp:15:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kspeeds_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[26.180s]    15 |         const int [01;35m[Kspeeds_size[m[K = speeds.local_speeds.size();
+[26.180s]       |                   [01;35m[K^~~~~~~~~~~[m[K
+[27.804s] [ 89%] [32m[1mLinking CXX shared library liblocal_planner.so[0m
+[28.054s] [ 89%] Built target local_planner
+[28.064s] [ 94%] [32mBuilding CXX object src/perception_process/CMakeFiles/perception_process.dir/perception_process.cpp.o[0m
+[28.064s] [ 94%] [32mBuilding CXX object src/perception_process/CMakeFiles/perception_process.dir/perception_process_main.cpp.o[0m
+[30.404s] [ 97%] [32m[1mLinking CXX executable car_move_cmd[0m
+[30.899s] [ 97%] Built target car_move_cmd
+[41.228s] [100%] [32m[1mLinking CXX executable perception_process[0m
+[41.858s] [100%] Built target perception_process
+[41.862s] Invoked command in '/home/abc/perception_with_ros2/build/perception' returned '0': CMAKE_PREFIX_PATH=/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/perception_with_ros2/install/perception:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/base_msgs:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/perception_with_ros2/install/base_msgs_per/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/abc/perception_with_ros2/build/perception -- -j12 -l12
+[41.864s] Invoking command in '/home/abc/perception_with_ros2/build/perception': CMAKE_PREFIX_PATH=/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/perception_with_ros2/install/perception:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/base_msgs:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/perception_with_ros2/install/base_msgs_per/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --install /home/abc/perception_with_ros2/build/perception
+[41.865s] -- Install configuration: ""
+[41.865s] -- Installing: /home/abc/perception_with_ros2/install/perception/lib/libconfig_reader.so
+[41.866s] -- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/libconfig_reader.so" to ""
+[41.866s] -- Installing: /home/abc/perception_with_ros2/install/perception/lib/libmathlibs.so
+[41.871s] -- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/libmathlibs.so" to ""
+[41.871s] -- Installing: /home/abc/perception_with_ros2/install/perception/lib/libdecision_center.so
+[41.871s] -- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/libdecision_center.so" to ""
+[41.872s] -- Installing: /home/abc/perception_with_ros2/install/perception/lib/libpnc_map_creator.so
+[41.872s] -- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/libpnc_map_creator.so" to ""
+[41.872s] -- Installing: /home/abc/perception_with_ros2/install/perception/lib/perception/pnc_map_server
+[41.874s] -- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/perception/pnc_map_server" to ""
+[41.874s] -- Installing: /home/abc/perception_with_ros2/install/perception/lib/libglobal_planner.so
+[41.875s] -- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/libglobal_planner.so" to ""
+[41.875s] -- Installing: /home/abc/perception_with_ros2/install/perception/lib/perception/global_path_server
+[41.876s] -- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/perception/global_path_server" to ""
+[41.877s] -- Installing: /home/abc/perception_with_ros2/install/perception/lib/liblocal_planner.so
+[41.877s] -- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/liblocal_planner.so" to ""
+[41.878s] -- Installing: /home/abc/perception_with_ros2/install/perception/lib/libreference_line.so
+[41.879s] -- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/libreference_line.so" to ""
+[41.879s] -- Installing: /home/abc/perception_with_ros2/install/perception/lib/perception/osqp_test
+[41.879s] -- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/perception/osqp_test" to ""
+[41.880s] -- Installing: /home/abc/perception_with_ros2/install/perception/lib/perception/newton_test
+[41.880s] -- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/perception/newton_test" to ""
+[41.880s] -- Installing: /home/abc/perception_with_ros2/install/perception/lib/libvehicle_info.so
+[41.881s] -- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/libvehicle_info.so" to ""
+[41.881s] -- Installing: /home/abc/perception_with_ros2/install/perception/lib/perception/perception_process
+[41.885s] -- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/perception/perception_process" to ""
+[41.886s] -- Installing: /home/abc/perception_with_ros2/install/perception/lib/perception/car_move_cmd
+[41.888s] -- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/perception/car_move_cmd" to ""
+[41.889s] -- Installing: /home/abc/perception_with_ros2/install/perception/lib/perception/obs_move_cmd
+[41.890s] -- Set non-toolchain portion of runtime path of "/home/abc/perception_with_ros2/install/perception/lib/perception/obs_move_cmd" to ""
+[41.890s] -- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/config
+[41.890s] -- Installing: /home/abc/perception_with_ros2/install/perception/share/perception/config/perception_static_obs_config.yaml
+[41.890s] -- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/config/perception_dynamic_obs_config.yaml
+[41.890s] -- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/launch
+[41.890s] -- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/launch/perception_launch.py
+[41.890s] -- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/launch/move_cmd_launch.py
+[41.890s] -- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/urdf
+[41.890s] -- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/urdf/main_car
+[41.891s] -- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/urdf/main_car/car_camera.xacro
+[41.891s] -- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/urdf/main_car/car_base.xacro
+[41.891s] -- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/urdf/main_car/car_radar.xacro
+[41.891s] -- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/urdf/main_car/car.xacro
+[41.891s] -- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/urdf/main_car/car_wheels.xacro
+[41.891s] -- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/urdf/obs_car
+[41.891s] -- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/urdf/obs_car/obs_car.xacro
+[41.891s] -- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/rviz
+[41.891s] -- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/rviz/perception.rviz
+[41.891s] -- Installing: /home/abc/perception_with_ros2/install/perception/share/ament_index/resource_index/package_run_dependencies/perception
+[41.892s] -- Installing: /home/abc/perception_with_ros2/install/perception/share/ament_index/resource_index/parent_prefix_path/perception
+[41.892s] -- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/environment/ament_prefix_path.sh
+[41.892s] -- Installing: /home/abc/perception_with_ros2/install/perception/share/perception/environment/ament_prefix_path.dsv
+[41.892s] -- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/environment/path.sh
+[41.892s] -- Installing: /home/abc/perception_with_ros2/install/perception/share/perception/environment/path.dsv
+[41.892s] -- Installing: /home/abc/perception_with_ros2/install/perception/share/perception/local_setup.bash
+[41.892s] -- Installing: /home/abc/perception_with_ros2/install/perception/share/perception/local_setup.sh
+[41.892s] -- Installing: /home/abc/perception_with_ros2/install/perception/share/perception/local_setup.zsh
+[41.892s] -- Installing: /home/abc/perception_with_ros2/install/perception/share/perception/local_setup.dsv
+[41.892s] -- Installing: /home/abc/perception_with_ros2/install/perception/share/perception/package.dsv
+[41.893s] -- Installing: /home/abc/perception_with_ros2/install/perception/share/ament_index/resource_index/packages/perception
+[41.894s] -- Installing: /home/abc/perception_with_ros2/install/perception/share/perception/cmake/perceptionConfig.cmake
+[41.894s] -- Installing: /home/abc/perception_with_ros2/install/perception/share/perception/cmake/perceptionConfig-version.cmake
+[41.894s] -- Up-to-date: /home/abc/perception_with_ros2/install/perception/share/perception/package.xml
+[41.894s] Invoked command in '/home/abc/perception_with_ros2/build/perception' returned '0': CMAKE_PREFIX_PATH=/home/abc/perception_with_ros2/install/base_msgs_per:/home/abc/perception_with_ros2/install/perception:/home/abc/planning_with_ros2/install/planning:/home/abc/planning_with_ros2/install/base_msgs:/home/abc/perception_with_ros2/install/data_plot_per:/home/abc/planning_with_ros2/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/perception_with_ros2/install/base_msgs_per/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/perception_with_ros2/install/perception/lib:/home/abc/planning_with_ros2/install/planning/lib:/home/abc/planning_with_ros2/install/base_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --install /home/abc/perception_with_ros2/build/perception

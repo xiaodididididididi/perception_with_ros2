@@ -34,6 +34,9 @@ namespace Perception
             read_vehicle_config(obs_car1_, "obs_car1");
             read_vehicle_config(obs_car2_, "obs_car2");
             read_vehicle_config(obs_car3_, "obs_car3");
+            read_vehicle_config(obs_car4_, "obs_car4");
+            read_vehicle_config(obs_car5_, "obs_car5");
+            read_vehicle_config(obs_car6_, "obs_car6");
         }
         catch (const YAML::Exception &e)
         {

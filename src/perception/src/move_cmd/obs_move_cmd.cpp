@@ -9,7 +9,7 @@ namespace Perception
         obs_move_cmd_config_ = std::make_unique<ConfigReader>();
         obs_move_cmd_config_->read_move_cmd_config();
 
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < 6; i++)
         {
             ObsParam obs_param;
             obs_param.obs_ = std::make_shared<ObsCar>(i + 1);

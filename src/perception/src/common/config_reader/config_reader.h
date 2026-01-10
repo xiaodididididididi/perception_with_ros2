@@ -74,6 +74,9 @@ namespace Perception
         inline VehicleStruct obs_car1() const { return obs_car1_; }
         inline VehicleStruct obs_car2() const { return obs_car2_; }
         inline VehicleStruct obs_car3() const { return obs_car3_; }
+        inline VehicleStruct obs_car4() const { return obs_car4_; }
+        inline VehicleStruct obs_car5() const { return obs_car5_; }
+        inline VehicleStruct obs_car6() const { return obs_car6_; }
         inline std::unordered_map<int, VehicleStruct> obs_pair() const { return obs_pair_; }
         void read_pnc_map_config();
         inline PNCMapStruct pnc_map() const { return pnc_map_; }
@@ -97,6 +100,9 @@ namespace Perception
         VehicleStruct obs_car1_;
         VehicleStruct obs_car2_;
         VehicleStruct obs_car3_;
+        VehicleStruct obs_car4_;
+        VehicleStruct obs_car5_;
+        VehicleStruct obs_car6_;
         std::unordered_map<int, VehicleStruct> obs_pair_;
         PNCMapStruct pnc_map_;
         GlobalPathStruct global_path_;
